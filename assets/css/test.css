@@ -1,0 +1,74 @@
+.ct-legend li{
+    position: relative;
+    padding-left: 23px;
+    margin-right: 10px;
+    margin-top: 3px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.ct-legend li::before {
+        width: 17px;
+        height: 17px;
+        position: absolute;
+        left: 0;
+        content: '';
+        border: 3px solid transparent;
+        border-radius: 2px;
+}
+.ct-legend li .inactive:before {
+    background: transparent;
+}
+.ct-legend li:nth-child(1)::before{
+    background-color: #d70206;
+} 
+.ct-legend li:nth-child(2)::before{
+    background-color: #f05b4f;
+}
+.ct-legend li:nth-child(3)::before{
+    background-color: #f4c63d;
+}
+.ct-legend li:nth-child(4)::before{
+    background-color: #d17905;
+}
+.ct-legend li:nth-child(5)::before{
+    background-color: #453d3f;
+}
+.ct-legend li:nth-child(1n+6)::before{
+    background-color: #59922b;
+}
+#donutLegend ul{
+    padding: 0;
+    list-style-type: none;
+}
+#donut2Legend ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+.productDiscountError {
+    width: 30%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px 0px 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: center;
+    font-weight:bold;
+    background-color:#f2dede;
+  }
+#totalPrice {
+    width: 30%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px 0px 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: center;
+    font-weight:bold;
+    background-color:#ff0;
+}
